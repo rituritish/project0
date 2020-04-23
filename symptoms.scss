@@ -1,0 +1,68 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.navbar {
+    position: fixed;
+}
+.grid {
+            display: grid;
+            padding: 20px;
+            grid-column-gap: 20px;
+            grid-row-gap: 10px;
+            grid-template-columns: auto auto;
+    }
+
+    @media (max-width: 600px) {
+        div.image {
+          display: none;
+        }
+      }
+      
+    @media (min-width: 600px) {
+        div.image {
+            width: 100%;
+            height: 1200px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+      }
+
+      #sym {
+          @extend %message;
+          font-style: italic;
+          justify-content: center;
+          background-color: lightcoral
+      }
+div{
+    @extend %message;
+    font-size: 14px;
+    h1{
+        
+        font-style: italic;
+        color: rosybrown;
+    }
+    p {
+        font-size: 16px;
+        color: rgb(51, 40, 40);
+    }
+    ol li{
+        font-size: 16px;
+        color: rgb(63, 63, 247);
+
+    }
+    ul>li{
+        
+        color: black;
+    }
+        
+    }
