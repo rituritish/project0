@@ -9,11 +9,11 @@ COVID-19 is a type of Coronavirus which is spreading throughout the world very q
 This project covers COVID-19 (Coronavirus) Symptoms, Prevention and Current Status in the world. This project is responsive.
 
 ## Technology
-HTML 5 
-Bootstrap 4
+HTML_5 
+Bootstrap_4
 CSS 
 SCSS
-VS Code
+VSCode
 
 ## FILES INCLUDED
 ### Index
