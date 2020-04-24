@@ -7,7 +7,17 @@
 .navbar {
     position: fixed;
 }
-p{
+.inf {
     padding: 10px;
     margin: 10px;
+}
+.ind{
+    padding: 10px;
+    margin: 10px;
+}
+.memes{
+    font-size: 10px;
+    color: grey;
+    margin: 15px;
+    margin-top: 0px;
 }
